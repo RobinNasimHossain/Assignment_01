@@ -1,0 +1,447 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: rgb(255, 255, 255);
+}
+header {
+  max-width: 1440px;
+  height: 150px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  margin: 50px 150px;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li {
+  margin-right: 166px;
+  margin-top: 14px;
+  list-style: none;
+}
+.nav ul li a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  text-align: center;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  padding: 17px 24px 17px 24px;
+  opacity: 0.8;
+}
+/* banner section */
+.banner {
+  background: url("../assets/Hero-bg.png") center/cover no-repeat;
+  overflow: hidden;
+  height: 652px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.img-container img {
+  margin-bottom: 32px;
+}
+.img-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.img-container p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.img-container button {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 32px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px 21px 24px;
+}
+.img-container button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 32px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px 21px 24px;
+}
+.need h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+  margin-top: 30px;
+}
+.need p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.start {
+  width: 946px;
+  height: 336px;
+  margin: 0 auto;
+  display: flex;
+
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.start-container h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.start-container p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.end-container {
+  margin-left: 50px;
+}
+.start-btn {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  text-decoration: none;
+  padding: 12px 20px 12px 20px;
+}
+/* modern */
+.modern {
+  width: 946px;
+  height: 336px;
+  margin: 0 auto;
+  display: flex;
+
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.end-modern h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.end-modern p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.modern-container {
+  margin-right: 50px;
+}
+.inspiration {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.inspiration h2 {
+  margin-bottom: 24px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.inspiration p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.video iframe {
+  width: 100%;
+  height: 550px;
+  border: 2px solid red;
+  margin: 20px;
+  margin-bottom: 180px;
+}
+
+.current h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.current p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  max-width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.card {
+  width: 1140px;
+  height: 340px;
+
+  margin: 0 auto;
+}
+.card-body {
+  display: flex;
+  justify-content: space-between;
+
+  height: 300px;
+}
+
+.card-img1 {
+  border-radius: 16px;
+  text-align: left;
+  padding: 40px;
+  background: rgba(255, 76, 30, 0.05);
+  margin-right: 24px;
+}
+.card-body h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-right: 24px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-body p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+}
+.card-body a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.card-img2 {
+  border-radius: 16px;
+  text-align: left;
+  padding: 40px;
+  border-radius: 16px;
+
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-img3 {
+  border-radius: 16px;
+  text-align: left;
+  padding: 40px;
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
+}
+.suppert-container {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("../assets/handshake.jpg") center/cover no-repeat;
+  overflow: hidden;
+  max-width: 1040px;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+.suppert {
+  width: 1140px;
+  height: 313px;
+}
+.suppert h2 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 64px 46px;
+}
+.suppert p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.suppert input[type="text"] {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 24px;
+  background: rgb(255, 255, 255);
+  width: 50%;
+  margin-top: 15px;
+  margin-left: 250px;
+  margin-right: 20px;
+}
+.suppert button {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 17px 20px 17px 20px;
+}
+.suppert input[type="placeholder"] {
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.fotter-link {
+  max-width: 1440px;
+  height: 150px;
+  margin: 0 auto;
+}
+.fotter-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fotter-item h3 {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  margin: 50px 150px;
+}
+.fotter-item ul {
+  display: flex;
+}
+.fotter-item li {
+  justify-content: space-between;
+  margin-right: 40px;
+  list-style: none;
+}
